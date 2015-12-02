@@ -16,3 +16,11 @@ var fs = require('fs');
 //******************
 //
 
+fs.utimes('125.txt', atime, mtime, function(err){
+    if(err){
+     throw err;
+    }
+    console.log('time update');
+});
+
+// fs.utimesSync(path, atime, mtime)
