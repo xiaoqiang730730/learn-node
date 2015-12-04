@@ -14,7 +14,7 @@ var fs = require('fs');
 // ************************************
 // 
 // 
-    fs.readFile('./datatest.js', 'utf-8', function(err, data){
+    fs.readFile('./datatest.txt', 'utf-8', function(err, data){
         if(err){
             throw err;
         }

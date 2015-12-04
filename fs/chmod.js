@@ -16,7 +16,7 @@ var fs = require('fs');
 //
 
 
-fs.chmod('./datatest.txt', 0754, function(err){
+fs.chmod('./datatest.txt', 0777, function(err){
     if(err){
         throw err;
     }
